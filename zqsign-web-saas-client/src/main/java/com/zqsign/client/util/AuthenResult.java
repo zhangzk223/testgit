@@ -21,6 +21,7 @@ public class AuthenResult implements Serializable{
     private Object data;
 
     public static AuthenResult build(Integer status, String msg, Object data) {
+        System.out.println("status:"+status+"==msg:"+msg);
         return new AuthenResult(status, msg, data);
     }
    
