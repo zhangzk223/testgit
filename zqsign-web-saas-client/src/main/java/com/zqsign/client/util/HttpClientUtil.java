@@ -39,7 +39,7 @@ public class HttpClientUtil {
 
 	private static String encode = "UTF-8"; 
       
-	
+	   
 	/** 
      * 上传文件 
      *  

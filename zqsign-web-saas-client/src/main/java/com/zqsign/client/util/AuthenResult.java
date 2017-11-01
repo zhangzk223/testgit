@@ -10,7 +10,7 @@ import com.alibaba.fastjson.JSONObject;
  * 2017年7月13日下午1:08:01
  */
 public class AuthenResult implements Serializable{
-
+    
     // 响应业务状态
     private Integer status;
 
