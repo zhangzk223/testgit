@@ -26,7 +26,7 @@ public class AuthenResult implements Serializable{
     }
    
     public AuthenResult() {
-
+    	System.out.println("wu can gou zao!!");
     }
     public static AuthenResult build(Integer status, String msg) {
         return new AuthenResult(status, msg, null);
